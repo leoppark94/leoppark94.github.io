@@ -1,12 +1,9 @@
 ---
 
 layout: post
-
-title:  "Integrating razorpay into your webapp"
-
-date:   2022-07-31
-
-categories: ubuntu
+title:  "01. 우분투 설치"
+date:   2022-07-31 21:03:36 +0530
+categories: Ubuntu
 
 ---
 
