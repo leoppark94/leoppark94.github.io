@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title:  "01. 우분투(ubuntu 20.04) 설치 방법"
 date:   2022-07-31 21:03:36 +0530
@@ -9,7 +8,7 @@ categories: Ubuntu
 
 본 글은 우분투 홈페이지의 설치 가이드 영문 버전을 토대로 작성하였습니다.
 
-[ubuntu 홈페이지의 설치 가이드 | ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview))    
+[ubuntu 홈페이지의 설치 가이드 ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview))    
 
 윈도우 환경에서 리눅스 설치하는 방식을 기준으로 작성하였습니다.
 
@@ -25,19 +24,15 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 
 #### 준비물
 
-1.  홈페이지의 상단의 Download 메뉴에 접속하여 설치를 하고싶은 우분투의 이미지파일(.iso)을 다운로드
+1. 홈페이지의 상단의 Download 메뉴에 접속하여 설치를 하고싶은 우분투의 이미지파일(.iso)을 다운로드
    
-   [우분투 홈페이지 | ubuntu](https://ubuntu.com/)
-   
-   
+   [우분투 홈페이지 ubuntu](https://ubuntu.com/)
 
 2. 다운로드한 이미지파일을 설치할 USB(권장용량 12GB 이상, 최소용량 8GB) 
 
 3. USB를 부팅 USB 로 만들어 주는 프로그램 설치
    
-   [Balena Etcher 다운로드 링크 | balena.io](https://www.balena.io/etcher/ )
-   
-   
+   [Balena Etcher 다운로드 링크 balena.io](https://www.balena.io/etcher/ )
 
 #### 참고사항
 
@@ -45,16 +40,13 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 
 - Balena Etcher 를 기준으로 설치하는 방법을 다루지만,  Refus 나 기타 USB 부팅 프로그램을 사용하여도 상관없습니다.
   
-  [윈도우에서 Refus 를 이요하여 USB stick 을 만드는 법 | ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#3-usb-selection)
-
-
+  [윈도우에서 Refus 를 이요하여 USB stick 을 만드는 법 ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#3-usb-selection)
 
 ---
 
 ## 설치 USB만들기
 
 ---
-
 
 <div>
 <img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/BalenaEtcher.png?raw=true">
@@ -65,8 +57,6 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 2) 가운데 select target 을 눌러 설치할 USB 메모리 카드를 선택
 
 3) Flash 버튼을 누른 후 완료될 때 까지 기다리기
-
-
 
 ---
 
@@ -83,14 +73,8 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
    - 진입은 Delete 버튼 F2 버튼 F12 버튼 등 을 컴퓨터를 종료 후 재시작 하는 과정에서 브랜드 로고가 뜨는(ASUS / Lenovo / BIOSTAR 등등) 화면에 어떤 버튼을 누르면 설정에 들어가는지 확인이 가능합니다.
    
    - 바이오스 설정까지 들어가지 않고 어떤 장치에서 부팅할지 선택하는 창으로 들어갈 수 있습니다.
-     
-     
 
 2. 진입한 설정에서 방금 전 우분투를 설치한 USB장치를 최 우선 순위 부팅 장치로 설정
-
-
-
-
 
 ---
 
@@ -102,15 +86,11 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 
 다음과 같은 순서로 진행합니다.
 
-
-
 1) Try or Install Ubuntu
 
 <div>
 <IMG src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_1.PNG?raw=true">
 </div>
-
-
 
 2) 이번 설정에서는 English로 진행했습니다.
    
@@ -130,8 +110,6 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 <img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_3.PNG?raw=true">
 </div>
 
-
-
 4. 이번 경우에는 최소 설정으로 설정합니다.
    
    저의 경우 우분투를 실사용 목적이 아닌, 서버 용도로 사용할 것이기에 다음과 같이 설정하였습니다.
@@ -139,8 +117,6 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 <div>
 <img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_4.PNG?raw=true">
 </div>
-
-
 
 5. 해당 설정의 경우 저의 경우 Virtual Box 를 사용하여 다음과 같이 하였지만, 세부적인 파티션 배분 등은 Something else를 선택하여, 설정을 진행하면 좋습니다.
    
@@ -163,8 +139,6 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
    Your name 의 경우 리눅스 계정으로 사용됩니다.
    
    computer's name 의 경우 네트워크 등에서 인식할때도 장비의 이름으로 설정됩니다.
-   
-   
 
 <div>
 <img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_7.PNG?raw=true">
