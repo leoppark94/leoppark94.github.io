@@ -3,7 +3,6 @@ layout: post
 title:  "01. 우분투(ubuntu 20.04) 설치 방법"
 date:   2022-07-31 21:03:36 +0530
 categories: Ubuntu
-
 ---
 
 본 글은 우분투 홈페이지의 설치 가이드 영문 버전을 토대로 작성하였습니다.
@@ -149,5 +148,3 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 <div>
 <img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_8.PNG?raw=true">
 </div>
-
-
