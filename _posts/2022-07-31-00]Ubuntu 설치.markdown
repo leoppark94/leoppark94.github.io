@@ -1,31 +1,21 @@
 ---
 
 layout: post
-title:  "01. 우분투 설치"
+title:  "01. 우분투(ubuntu 20.04) 설치 방법"
 date:   2022-07-31 21:03:36 +0530
 categories: Ubuntu
 
 ---
 
+본 글은 우분투 홈페이지의 설치 가이드 영문 버전을 토대로 작성하였습니다.
 
-
-## Ubuntu 20.04 설치방법
-
----
-
-본 글은 
-
-<div>
-https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
-</div>
-
-우분투 홈페이지를 기반으로 작성되었습니다.
+[ubuntu 홈페이지의 설치 가이드 | ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview))    
 
 윈도우 환경에서 리눅스 설치하는 방식을 기준으로 작성하였습니다.
 
-
-
 우분투 부팅 USB 를 만들고 설치하는 과정을 담았습니다.
+
+Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 
 ---
 
@@ -33,7 +23,7 @@ https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
 
 ---
 
-준비물
+#### 준비물
 
 1.  홈페이지의 상단의 Download 메뉴에 접속하여 설치를 하고싶은 우분투의 이미지파일(.iso)을 다운로드
    
@@ -49,7 +39,7 @@ https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
    
    
 
-참고사항
+#### 참고사항
 
 - Ubuntu Desktop 과 Ubuntu Server 의 차이는 GUI 의 차이입니다. 대부분의 경우 Desktop 을 설치하는게 편합니다.
 
@@ -68,7 +58,6 @@ https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
 
 <div>
 <img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/BalenaEtcher.png?raw=true">
-</img>
 </div>
 
 1) balenaEtcher를 실행 후 다운로드 받은 이미지 파일을 좌측 + 로고를 눌러서 선택
@@ -76,5 +65,47 @@ https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
 2) 가운데 select target 을 눌러 설치할 USB 메모리 카드를 선택
 
 3) Flash 버튼을 누른 후 완료될 때 까지 기다리기
+
+
+
+---
+
+### BIOS(UEFI) 에서 USB로 부팅하기
+
+---
+
+컴퓨터의 메인보드는 입력된 저장장치에서 부팅가능한 OS(운영체제)를 찾아서 부팅을 하는 기능을 가지고 있습니다.
+
+ 각 PC의 메인보드에 따라 설정하는 방법은 다르지만 아래와 같은 큰 틀에서 벗어나는 경우는 잘 없습니다.
+
+1. BIOS 혹은 UEFI 설정에 진입
+   
+   - 진입은 Delete 버튼 F2 버튼 F12 버튼 등 을 컴퓨터를 종료 후 재시작 하는 과정에서 브랜드 로고가 뜨는(ASUS / Lenovo / BIOSTAR 등등) 화면에 어떤 버튼을 누르면 설정에 들어가는지 확인이 가능합니다.
+   
+   - 바이오스 설정까지 들어가지 않고 어떤 장치에서 부팅할지 선택하는 창으로 들어갈 수 있습니다.
+     
+     
+
+2. 진입한 설정에서 방금 전 우분투를 설치한 USB장치를 최 우선 순위 부팅 장치로 설정
+
+
+
+
+
+---
+
+### 우분투 설치하기
+
+---
+
+
+
+
+
+
+
+
+
+
 
 
