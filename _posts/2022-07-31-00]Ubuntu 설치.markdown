@@ -1,0 +1,73 @@
+---
+
+layout: post
+
+title:  "Integrating razorpay into your webapp"
+
+date:   2022-07-31
+
+categories: ubuntu
+
+---
+
+## Ubuntu 20.04 설치방법
+
+---
+
+본 글은 
+
+<div>
+https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
+</div>
+
+우분투 홈페이지를 기반으로 작성되었습니다.
+
+윈도우 환경에서 리눅스 설치하는 방식을 기준으로 작성하였습니다.
+
+---
+
+## 시작하기 전에
+
+---
+
+준비물
+
+1.  홈페이지의 상단의 Download 메뉴에 접속하여 설치를 하고싶은 우분투의 이미지파일(.iso)을 다운로드
+   
+   [우분투 홈페이지 | ubuntu](https://ubuntu.com/)
+   
+   
+
+2. 다운로드한 이미지파일을 설치할 USB(권장용량 12GB 이상, 최소용량 8GB) 
+
+3. USB를 부팅 USB 로 만들어 주는 프로그램 설치
+   
+   [Balena Etcher 다운로드 링크 | balena.io](https://www.balena.io/etcher/ )
+   
+   
+
+참고사항
+
+- Ubuntu Desktop 과 Ubuntu Server 의 차이는 GUI 의 차이입니다. 대부분의 경우 Desktop 을 설치하는게 편합니다.
+
+- Balena Etcher 를 기준으로 설치하는 방법을 다루지만,  Refus 나 기타 USB 부팅 프로그램을 사용하여도 상관없습니다.
+  
+  [윈도우에서 Refus 를 이요하여 USB stick 을 만드는 법 | ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#3-usb-selection)
+
+
+
+---
+
+## 설치 USB만들기
+
+---
+
+
+<div>
+<img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/BalenaEtcher.png?raw=true">
+</img>
+</div>
+
+
+
+
