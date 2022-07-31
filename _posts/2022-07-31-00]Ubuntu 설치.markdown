@@ -40,7 +40,7 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 
 - Balena Etcher 를 기준으로 설치하는 방법을 다루지만,  Refus 나 기타 USB 부팅 프로그램을 사용하여도 상관없습니다.
   
-  [윈도우에서 Refus 를 이요하여 USB stick 을 만드는 법 ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#3-usb-selection)
+  [윈도우에서 Refus 를 이용하여 USB stick 을 만드는 법 ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#3-usb-selection)
 
 ---
 
