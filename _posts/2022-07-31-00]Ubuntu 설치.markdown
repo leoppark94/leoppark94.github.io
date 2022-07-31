@@ -98,14 +98,82 @@ Ubuntu Desktop 을 설치하는 방법을 담았습니다.
 
 ---
 
+우분투 설치 
+
+다음과 같은 순서로 진행합니다.
 
 
 
+1) Try or Install Ubuntu
+
+<div>
+<IMG src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_1.PNG?raw=true">
+</div>
 
 
 
+2) 이번 설정에서는 English로 진행했습니다.
+   
+   Korean 으로 생성할 경우 home 폴더 내부의 경로가 한글로 생성되어, ssh 프로그램 사용시에 일부 불편한 경우가 생겨, 영문으로 설정하였습니다.
+
+<div>
+<img src = "https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_2.PNG?raw=true">
+</div>
+
+3. 키보드의 경우 영문으로 설정하였습니다.
+   
+   어짜피 한글 키보드는 여기서 Korean 으로 설정하여도 입력되지 않습니다.
+   
+   추후 입력기 설정을 별개로 해주어야 한국어 키보드 사용이 가능합니다.
+
+<div>
+<img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_3.PNG?raw=true>"
+</div>
 
 
 
+4. 이번 경우에는 최소 설정으로 설정합니다.
+   
+   저의 경우 우분투를 실사용 목적이 아닌, 서버 용도로 사용할 것이기에 다음과 같이 설정하였습니다.
+
+<div>
+<img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_4.PNG?raw=true">
+</div>
+
+
+
+5. 해당 설정의 경우 저의 경우 Virtual Box 를 사용하여 다음과 같이 하였지만, 세부적인 파티션 배분 등은 Something else를 선택하여, 설정을 진행하면 좋습니다.
+   
+   - Something Else로 설치 시 파티션을 나눌 당시 EFI 라는 파티션을 적게 만들어야 BootLoader 가 설치가 가능합니다.
+   
+   - 하드디스크 파티션 맵 설정 방법의 경우 다양한 기법을 지원하지만, 리눅스 설치 시는 주로 Ext4 파티션을 사용합니다.
+
+<div>
+<img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_5.PNG?raw=true">
+</div>
+
+6. 시간대를 Seoul 로 설정하였습니다.
+
+<div>
+<img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_6.PNG?raw=true">
+</div>
+
+7. 기본 계정 설정 창입니다.
+   
+   Your name 의 경우 리눅스 계정으로 사용됩니다.
+   
+   computer's name 의 경우 네트워크 등에서 인식할때도 장비의 이름으로 설정됩니다.
+   
+   
+
+<div>
+<img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_7.PNG?raw=true">
+</div>
+
+8. 다음과 같이 기본 설정이 완료되면 설치가 진행됩니다.
+
+<div>
+<img src="https://github.com/leoppark94/leoppark94.github.io/blob/master/_posts/Images/ubuntu_install_8.PNG?raw=true">
+</div>
 
 
